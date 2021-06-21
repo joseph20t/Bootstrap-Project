@@ -1,0 +1,106 @@
+.container_div{
+    
+    height: 90vh;
+    background-image: url("./com");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ #container_div {
+    width: 80vw;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+#nav_div {
+    width: 100vw;
+    height: 15vh;
+}
+
+#nav-ul{
+    margin-left: 35vw
+}
+li {
+    margin-left: 1vw;
+}
+
+#first_card{
+    height: 40vh;
+    width: 30vw;     
+    margin-left: 10vw; 
+    margin-top: 2vh;
+    background-color: transparent !important;
+    border: none;
+}
+
+#our_services_btn {
+    width: 14vw; 
+    height: 10vh; 
+    background-color: transparent !important; 
+    border-color: white; 
+    font-size: 1.5vw; 
+    font-weight: bold;
+}
+
+#second_card {
+    height: 67vh;
+    width: 30vw; 
+    margin-left: 3vw; 
+    margin-top: 2vh;
+}
+
+#second_container_div {
+    width: 100vw;
+    height: 80vh;
+    background-color: white;
+}
+
+#solutions_business_needs{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 12vh;
+}
+
+#icon_container_div {
+    display: grid;
+    grid-template-columns: 23vw 20vw 23vw;
+    column-gap: 13vw;
+    height: 10vh;
+    margin-top: 4vh;
+}
+
+#first_icon_div {
+    margin-left: 10vw;
+}
+
+#second_icon_div {
+    margin-left: 2vw;
+}
+
+#third_icon_div {
+    margin-left: -4vw;
+}
+
+#text_div {
+    width: 30vw;
+    height: 7vh;
+    margin-top: 3vh;
+    margin-left: 35vw;
+}
+
+#third_container_div {
+    width: 100vw;
+    height: 80vh;
+    background-color: teal
+}
+
+
+#line_div {
+    width: 31vw;
+    height: 0.1vh;
+    margin-left: 3vw;
+    margin-top: 4vh;
+    background-color: mediumseagreen;
+
+}
