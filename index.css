@@ -1,22 +1,22 @@
 .container_div{
-    
-    height: 90vh;
+    height: 100vh;
     background-image: url("./com");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
- #container_div {
-    width: 80vw;
+ #image_container {
+    /* width: 100vw; */
     height: 90vh;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
 } 
 
-#nav_div {
-    width: 100vw;
-    height: 15vh;
-}
+/* #nav_div {
+    /* width: 100vw; */
+    /* height: 15vh; */
+    /* background-color: red; */
+/* }  */
 
 #nav-ul{
     margin-left: 35vw
@@ -26,10 +26,7 @@ li {
 }
 
 #first_card{
-    height: 40vh;
-    width: 30vw;     
-    margin-left: 10vw; 
-    margin-top: 2vh;
+    margin-top: 10vh;
     background-color: transparent !important;
     border: none;
 }
@@ -44,19 +41,15 @@ li {
 }
 
 #second_card {
-    height: 67vh;
-    width: 30vw; 
-    margin-left: 3vw; 
-    margin-top: 2vh;
+    margin-top: 10vh;
 }
 
 #second_container_div {
-    width: 100vw;
     height: 80vh;
     background-color: white;
 }
 
-#solutions_business_needs{
+.solutions_business_needs{
     text-align: center;
     font-weight: bold;
     padding-top: 12vh;
@@ -82,25 +75,112 @@ li {
     margin-left: -4vw;
 }
 
-#text_div {
+.text_div {
     width: 30vw;
     height: 7vh;
     margin-top: 3vh;
     margin-left: 35vw;
 }
 
-#third_container_div {
-    width: 100vw;
-    height: 80vh;
-    background-color: teal
+#third_container_div{
+    height: 100vh;
+    background-color: oldlace 
 }
 
 
-#line_div {
+.line_div {
     width: 31vw;
     height: 0.1vh;
     margin-left: 3vw;
     margin-top: 4vh;
     background-color: mediumseagreen;
 
+}
+
+.radio_btn_div {
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+.radio_btn_div2{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+.radio_btn_div3{
+    margin-top: 2vh;
+}
+
+.family_image {
+    background-image: url("./guyslecture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+}
+
+#pop_up_div {
+    width: 18vw; 
+    height: 25vh; 
+    background-color: mediumseagreen;
+    margin-left: 22vw;
+    margin-top: 44vh;
+}
+
+#learn_more {
+    width: 14vw; 
+    height: 10vh; 
+    background-color: transparent !important; 
+    border-color: mediumseagreen;
+    color: mediumseagreen; 
+    font-size: 1.5vw; 
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-left: 3vw;
+}
+
+#fourth_container {
+    height: 80vh;
+    background-color: whitesmoke;
+}
+
+#business_image {
+    background-image: url("./man-tea.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+}
+
+#fifth_container {
+    height: 85vh;
+    background-color: oldlace;
+    margin-top: -5vh
+}
+
+#six_container {
+    height: 60vh;
+    background-color: teal;
+}
+
+#text_container {
+    width: 60vw;
+    padding-top: 10vh; 
+    margin-left: 21vw;
+}
+#paragraph {
+    font-weight: bold;
+    font-size: 2vw;
+    color: white;
+    font-family: cursive;
+}
+
+#seven_container {
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#card_image {
+    background-image: url("./th.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vh;
 }
