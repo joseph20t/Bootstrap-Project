@@ -5,30 +5,64 @@
     background-size: cover;
 }
 
- #image_container {
-    /* width: 100vw; */
-    height: 90vh;
-    /* margin-left: auto;
-    margin-right: auto; */
-} 
-
-/* #nav_div {
-    /* width: 100vw; */
-    /* height: 15vh; */
-    /* background-color: red; */
-/* }  */
-
-#nav-ul{
-    margin-left: 35vw
+.navbar-brand {
+    font-size: 2rem;
+    transition: .2s ease-in-out;
 }
-li {
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+.nav-link {
     margin-left: 1vw;
+    transition: .2s ease-in-out;
+}
+.nav-link:hover {
+    transform: scale(1.1);
 }
 
-#first_card{
-    margin-top: 10vh;
+#nav_container nav {
+    background-color: aqua;
+    height: 10vh;
+}
+
+#nav_ul {
+    margin-left: 25vw;
+}
+
+#btn_nav h2{
+    font-size: 1vw;
+    height: 5vh;
+    text-align: center;
+    padding-top: 2vh;
+    color: white;
+}
+#image_two_column {
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 4vh;
+}
+
+#first_card h2{
     background-color: transparent !important;
     border: none;
+}
+#txt_simple_online_home_loan {
+    font-size: 4vw; 
+    font-weight: bold; 
+    color: white;
+    margin-top: 5vh;
+}
+#image_line_div {
+    width: 7vw; 
+    height: 0.5vh; 
+    background-color: white;
+}
+
+#text_financial {
+    font-size: 1.5vw; 
+    font-weight: bold; 
+    color: white; 
+    margin-top: 2vh;
 }
 
 #our_services_btn {
@@ -38,41 +72,90 @@ li {
     border-color: white; 
     font-size: 1.5vw; 
     font-weight: bold;
+} 
+#second_card {
+    margin-left: 10vw;
+    margin-top: 8vh;
 }
 
-#second_card {
-    margin-top: 10vh;
+#white_card {
+    background-color: white;  
+}
+
+#text_how_much_you_want {
+    text-align: center; 
+    margin-top: 3vh; 
+    font-weight: bold; 
+    font-size: 1.9vw;
+}
+
+#provide_loan_text {
+    text-align: center; 
+    margin-top: 1vh; 
+    font-weight: bold; 
+    font-size: 0.9vw;
+} 
+
+#underline_div {
+    width: 7vw; 
+    height: 0.5vh; 
+    margin-left: 10vw; 
+    margin-top: 3vh; 
+    background-color: mediumseagreen;
+}
+
+.select_text {
+    font-size: 1vw; 
+    margin-top: 4vh; 
+    margin-left: 1vw;
+}
+
+#select_tag {
+    margin-top: 2vh;
+    width: 28vw;
+    margin-left: 1vw;
+}
+
+#you_have_to_pay_text {
+    font-size: 0.7vw; 
+    margin-top: 3vh; 
+    margin-left: 1vw;
+}
+
+span {
+    color: mediumspringgreen;
+}
+
+#btn_apply_now {
+    width: 28vw; 
+    height: 7vh;
+    margin-left: 1vw; 
+    margin-top: 2vh;
+}
+
+#we_provide_cash_loan {
+    text-align: center; 
+    margin-top: 1vh; 
+    font-weight: bold; 
+    font-size: 0.9vw;
 }
 
 #second_container_div {
     height: 80vh;
-    background-color: white;
 }
 
-.solutions_business_needs{
+.solutions_business_needs h2{
     text-align: center;
     font-weight: bold;
     padding-top: 12vh;
 }
 
-#icon_container_div {
-    display: grid;
-    grid-template-columns: 23vw 20vw 23vw;
-    column-gap: 13vw;
-    height: 10vh;
-    margin-top: 4vh;
-}
-
-#first_icon_div {
-    margin-left: 10vw;
-}
-
-#second_icon_div {
-    margin-left: 2vw;
-}
-
-#third_icon_div {
-    margin-left: -4vw;
+.solutions_business_needs div{
+    width: 7vw; 
+    height: 0.5vh; 
+    margin-left: 46vw; 
+    margin-top: 3vh; 
+    background-color: mediumseagreen;
 }
 
 .text_div {
@@ -80,6 +163,28 @@ li {
     height: 7vh;
     margin-top: 3vh;
     margin-left: 35vw;
+    font-size: 0.9vw; 
+    font-weight: bold;
+}
+
+#delivering_process {
+    margin-left: 4vw;
+}
+
+.icons_width {
+    width: 6vw;
+    margin-top: 5vh;
+}
+
+.text_for_loan {
+    color: mediumaquamarine; 
+    font-size: 1vw; 
+    font-weight: bold;
+}
+
+.three_option_text {
+    font-size: 1.5vw; 
+    font-weight: bold;
 }
 
 #third_container_div{
@@ -87,73 +192,167 @@ li {
     background-color: oldlace 
 }
 
+.family_image {
+    background-image: url("./guyslecture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 66vh;
+    width: 30vw; 
+    margin-left: 7vw; 
+    background-color: transparent !important; 
+    border: none;
+}
 
+#pop_up_div {
+    width: 18vw; 
+    height: 29vh; 
+    background-color: mediumaquamarine;
+    margin-left: 22vw;
+    margin-top: 40vh;
+}
+
+.percent99 {
+    text-align: center; 
+    padding-top: 5vh; 
+    font-size: 5vw;
+    color: white; 
+    font-weight: bold;
+}
 .line_div {
-    width: 31vw;
+    width: 40vw;
     height: 0.1vh;
-    margin-left: 3vw;
+    margin-left: 1.5vw;
     margin-top: 4vh;
-    background-color: mediumseagreen;
+    background-color: mediumaquamarine;
 
 }
 
 .radio_btn_div {
     margin-top: 5vh;
-    margin-left: 3vw;
+    margin-left: 1vw;
 }
+
 
 .radio_btn_div2{
     margin-top: 2vh;
-    margin-left: 3vw;
+    margin-left: 1vw;
 }
 
 .radio_btn_div3{
     margin-top: 2vh;
 }
 
-.family_image {
-    background-image: url("./guyslecture.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 66vh;
-}
-
-#pop_up_div {
-    width: 18vw; 
-    height: 25vh; 
-    background-color: mediumseagreen;
-    margin-left: 22vw;
-    margin-top: 44vh;
-}
-
 #learn_more {
     width: 14vw; 
     height: 10vh; 
     background-color: transparent !important; 
-    border-color: mediumseagreen;
+    border-color: mediumaquamarine;
     color: mediumseagreen; 
     font-size: 1.5vw; 
     font-weight: bold;
     margin-top: 5vh;
-    margin-left: 3vw;
+    margin-left: 1vw;
+}
+
+#mobile_paragraph {
+    margin-left: 3vw; 
+    font-size: 1vw; 
+    font-weight: bold; 
+    color: white;
+    margin-top: 1vh;
+}
+
+#guides_line_text {
+    font-size: 3.5vw; 
+    font-weight: bold; 
+    margin-left: 1vw;
 }
 
 #fourth_container {
-    height: 80vh;
+    height: 100vh;
     background-color: whitesmoke;
+}
+
+#line_div2 {
+    width: 7vw; height: 0.5vh; 
+    margin-left: 46vw; 
+    margin-top: 3vh; 
+    background-color: mediumseagreen;
+}
+
+.icons_width2 {
+    width: 7vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fifth_container {
+    height: 100vh;
+    background-color: oldlace;
+    margin-top: -5vh
+}
+
+.line_div3 {
+    width: 30vw;
+    height: 0.1vh;
+    margin-left: 2.8vw;
+    margin-top: 4vh;
+    background-color: mediumaquamarine;
+}
+
+.radio_btn_div4 {
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.radio_btn_div5 {
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+.radio_btn_div6 {
+    margin-top: 3vh;
 }
 
 #business_image {
     background-image: url("./man-tea.webp");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 66vh;
 }
 
-#fifth_container {
-    height: 85vh;
-    background-color: oldlace;
-    margin-top: -5vh
+#learn_more2 {
+    width: 14vw; 
+    height: 10vh; 
+    background-color: transparent !important; 
+    border-color: mediumaquamarine;
+    color: mediumseagreen; 
+    font-size: 1.5vw; 
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+#easy_way_to_get_loan {
+    font-size: 2.3vw; 
+    font-weight: bold; 
+    margin-left: 3vw;
+}
+
+#profit_tax_text {
+    margin-top: 3vh; 
+    margin-left: 3vw;
+}
+
+#man_with_tea_div {
+    height: 60vh; 
+    margin-left: 10vw; 
+    margin-top: 18vh;
+}
+
+.title_for_icons {
+    font-size: 1.5vw; 
+    font-weight: bold; 
+    text-align: center;
 }
 
 #six_container {
@@ -166,6 +365,7 @@ li {
     padding-top: 10vh; 
     margin-left: 21vw;
 }
+
 #paragraph {
     font-weight: bold;
     font-size: 2vw;
@@ -178,9 +378,358 @@ li {
     background-color: whitesmoke;
 }
 
-#card_image {
-    background-image: url("./th.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 30vh;
+.options_txt {
+    font-size: 1.7vw; 
+    font-weight: bold; 
+    margin-left: -1vw;
+}
+
+#start_to_fiinist_txt {
+    font-size: 1.5vw; 
+    font-weight: bold; 
+    margin-left: -1vw;
+}
+
+.card-text_paragraph {
+    margin-top: 1.7vh; 
+    margin-left: -1vw;
+}
+
+#footer {
+    height: 80vh;
+    background-color: pink;
+}
+
+
+#icons_width2 {
+    width: 15vw;
+    margin-top: 20vh;
+    margin-left: -0.1vw;
+    
+}
+
+#txt {
+    font-weight: bold; 
+    margin-top: 2vh; 
+    font-size: 1.5vw;
+}
+ @media only screen and (max-width: 640px) {
+    .container_div{
+        height: 163vh;
+    }
+    #image_two_column {
+        width: 98vw;
+        margin-left: -1vw;
+    }
+
+    #first_card {
+        width: 100vw;
+    }
+
+     #txt_simple_online_home_loan {
+        font-size: 13vw;
+    } 
+   
+    #image_line_div {
+        width: 35vw; 
+    }
+
+    #text_financial {
+        font-size: 4.5vw
+    }
+    
+    #our_services_btn {
+        width: 60vw; 
+        font-size: 5vw; 
+    }
+    
+    #second_card {
+        width: 95vw;
+        margin-top: 4vh;
+        margin-left: 3vw;
+    }
+    
+    #white_card h2 {
+        width: 75vw;
+        font-size: 8vw;
+        text-align: center; 
+    }
+
+    #white_card p {
+        text-align: center; 
+        font-size: 3.3vw;
+    }
+    
+    #white_card div {
+        width: 25vw;  
+        margin-left: 23vw; 
+        margin-top: 3vh; 
+    }
+
+    #white_card h3 {
+        font-size: 3vw; 
+    }
+   
+    #white_card select {
+        width: 78vw;
+    }
+
+    #white_card button {
+        width: 78vw; 
+    }
+
+    .solutions_business_needs h2{
+        text-align: center;
+        font-weight: bold;
+        margin-left: 0.7vh;
+        font-size: 7vw;
+    }
+    #line_div2{
+        width: 45vw; 
+        height: 0.5vh; 
+        margin-left: 28vw;
+    }
+    
+    .text_div {
+        width: 95vw;
+        height: 7vh;
+        margin-left: 4vw;
+        font-size: 5vw; 
+        color: black;
+    }
+
+    #second_container_div {
+        height: 190vh;
+    }
+
+    #delivering_process {
+        margin-left: -0.5vw;
+        color: black;
+    }
+    #icons_mobile_style {
+        width: 20vw;
+        margin-left: -8vw;
+        margin-top: 7vh;
+    }
+    #icons_mobile_style2 {
+        width: 20vw;
+        margin-left: -8vw;
+    }
+    #icons_mobile_style3 {
+        width: 20vw;
+        margin-left: -8vw;
+    }
+
+    #mobile_text_loan {
+        font-size: 3.5vw; 
+        margin-left: -8vw;
+    }
+
+    #loan_options {
+    font-size: 6vw; 
+    font-weight: bold;
+    margin-left: -8vw;
+    }
+    
+    .imformation_on_loan_profit {
+        font-size: 4.4vw;
+        margin-left: -7vw;
+    } 
+
+    .family_image {
+        background-image: url("./guyslecture.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 85vw; 
+    }
+
+    #pop_up_div {
+        width:  50vw; 
+        height: 20vh; 
+        background-color: mediumaquamarine;
+        margin-left: 35vw;
+        margin-top: 50vh;
+    }
+
+    .percent99 {
+        padding-top: 3vh; 
+        font-size: 19vw;
+    }
+
+    #mobile_paragraph{
+        font-size: 4vw; 
+        margin-top: -1vh;
+    }
+
+    #guides_line_text {
+        font-size: 6.5vw;
+        margin-top: -10vh;
+    }
+
+    .line_div {
+        width: 85vw;
+    }
+
+    #learn_more {
+        width: 50vw;
+        font-size: 4vw; 
+    }
+    
+    #third_container_div{
+        height: 160vh; 
+    }
+
+    #line_div2 {
+        width: 35vw; 
+        margin-left: 33vw; 
+        margin-top: 3vh; 
+    }
+
+    .icons_width2 {
+        width: 29vw;
+        margin-top: 3vh;
+    }
+
+    #fourth_container {
+        height: 250vh;
+    }
+
+    #fifth_container {
+        height: 150vh;
+        background-color: oldlace;
+        margin-top: -15vh
+    }
+
+    #easy_way_to_get_loan {
+        font-size: 6.5vw; 
+        margin-left: -3vw;
+        margin-top: 3vh;
+    }
+
+    #profit_tax_text {
+        margin-top: 3vh; 
+        margin-left: -3vw;
+        font-size: 4vw;
+        font-weight: bold;
+    }
+
+    .line_div3 {
+    width: 70vw;
+    margin-left: -2vw;
+    }
+
+    .radio_btn_div4 {
+        margin-left: -2vw;
+    }
+    
+    .radio_btn_div5 {
+        margin-left: -2vw;
+    }
+    
+    #learn_more2 {
+        width: 50vw; 
+        font-size: 4vw; 
+        margin-left: -2vw;
+    }
+
+    #business_image {
+        background-image: url("./man-tea.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #man_with_tea_div {
+        width: 90vw;
+        margin-left: 1vw; 
+        margin-top: -0.5vh;
+    }
+
+    .title_for_icons {
+        font-size: 5vw;
+    }
+
+    #six_container {
+        height: 70vh;
+    }
+
+    #text_container {
+        width: 95vw;
+        margin-left: 2vw;
+    }
+
+    #paragraph {
+        font-size: 5vw;
+    }
+
+    .displaying_img_on_latest_news {
+        margin-left: -4vw;
+        width: 88vw;
+    }
+
+    .year_title {
+        margin-left: -5vw;
+    }
+
+    .options_txt {
+        font-size: 5.5vw; 
+        margin-left: -6vw;
+    }
+
+    #start_to_fiinist_txt{
+        font-size: 5.4vw;  
+        margin-left: -6vw;
+    }
+
+    .card-text_paragraph {
+        margin-left: -6vw;
+    }
+    #footer {
+        height: 80vh;
+        margin-top: 150vh;
+    }
+    #icons_width2 {
+        width: 50vw;
+        margin-left: -5vw;
+        margin-top: 10vh;
+        
+    }
+
+    #txt {
+        font-size: 4.5vw;
+        margin-left: -12vw;
+    }
+
+    #container_for_first_div {
+        border: none; 
+        background-color: red; 
+        height: 20vh;
+         margin-left: -9vw;
+    }
+
+    /* #container_for_first_link {
+        width: 70vw; 
+        height: 20vh;
+        background-color: orange;
+    } */
+
+    .three_option_text {
+        margin-top: -10vh;
+        font-size: 3vw; 
+        font-weight: bold;
+    }
+
+    #container_for_first_div {
+        border: none; 
+        background-color: transparent !important;
+    }
+
+} 
+
+#container_for_first_div {
+    border: none; 
+    background-color: transparent !important;
+}
+
+#container_for_first_link {
+    width: 12vw;
 }
