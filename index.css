@@ -1,6 +1,6 @@
-.container_div{
-    height: 100vh;
-    background-image: url("./com");
+.container_fluid{
+    background-image: linear-gradient( to top, rgba(245, 252, 246, 0.52), rgba(103, 201, 152, 0.664)),
+     url("./imges/pexels-david-gonzales-2640604.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,717 +19,290 @@
 .nav-link:hover {
     transform: scale(1.1);
 }
-
-#nav_container nav {
-    background-color: aqua;
-    height: 10vh;
+.image_line_div {
+    width: 10vw; 
+    height: 0.5vh; 
+    background-color: white;
 }
 
-#nav_ul {
-    margin-left: 25vw;
-}
-
-#btn_nav h2{
-    font-size: 1vw;
-    height: 5vh;
-    text-align: center;
-    padding-top: 2vh;
-    color: white;
-}
-#image_two_column {
-    width: 80vw;
-    margin-left: 8vw;
-    margin-top: 4vh;
-}
-
-#first_card h2{
-    background-color: transparent !important;
-    border: none;
-}
 #txt_simple_online_home_loan {
     font-size: 4vw; 
     font-weight: bold; 
     color: white;
     margin-top: 5vh;
 }
-#image_line_div {
-    width: 7vw; 
-    height: 0.5vh; 
-    background-color: white;
-}
-
-#text_financial {
-    font-size: 1.5vw; 
-    font-weight: bold; 
-    color: white; 
-    margin-top: 2vh;
-}
 
 #our_services_btn {
-    width: 14vw; 
-    height: 10vh; 
+    padding: 2vw 4vw 2vw 4vw; 
     background-color: transparent !important; 
-    border-color: white; 
-    font-size: 1.5vw; 
-    font-weight: bold;
-} 
-#second_card {
-    margin-left: 10vw;
-    margin-top: 8vh;
-}
+    border-color: white;
 
-#white_card {
-    background-color: white;  
-}
-
-#text_how_much_you_want {
-    text-align: center; 
-    margin-top: 3vh; 
-    font-weight: bold; 
-    font-size: 1.9vw;
-}
-
-#provide_loan_text {
-    text-align: center; 
-    margin-top: 1vh; 
-    font-weight: bold; 
-    font-size: 0.9vw;
 } 
 
-#underline_div {
-    width: 7vw; 
-    height: 0.5vh; 
-    margin-left: 10vw; 
-    margin-top: 3vh; 
-    background-color: mediumseagreen;
-}
-
-.select_text {
-    font-size: 1vw; 
-    margin-top: 4vh; 
-    margin-left: 1vw;
-}
-
-#select_tag {
-    margin-top: 2vh;
-    width: 28vw;
-    margin-left: 1vw;
-}
-
-#you_have_to_pay_text {
-    font-size: 0.7vw; 
-    margin-top: 3vh; 
-    margin-left: 1vw;
-}
-
-span {
-    color: mediumspringgreen;
-}
-
-#btn_apply_now {
-    width: 28vw; 
-    height: 7vh;
-    margin-left: 1vw; 
-    margin-top: 2vh;
-}
-
-#we_provide_cash_loan {
-    text-align: center; 
-    margin-top: 1vh; 
-    font-weight: bold; 
-    font-size: 0.9vw;
-}
-
-#second_container_div {
-    height: 80vh;
-}
-
-.solutions_business_needs h2{
-    text-align: center;
-    font-weight: bold;
-    padding-top: 12vh;
-}
-
-.solutions_business_needs div{
-    width: 7vw; 
-    height: 0.5vh; 
-    margin-left: 46vw; 
-    margin-top: 3vh; 
-    background-color: mediumseagreen;
-}
-
-.text_div {
-    width: 30vw;
-    height: 7vh;
-    margin-top: 3vh;
-    margin-left: 35vw;
-    font-size: 0.9vw; 
-    font-weight: bold;
-}
-
-#delivering_process {
-    margin-left: 4vw;
-}
-
-.icons_width {
-    width: 6vw;
-    margin-top: 5vh;
-}
-
-.text_for_loan {
-    color: mediumaquamarine; 
-    font-size: 1vw; 
-    font-weight: bold;
-}
-
-.three_option_text {
-    font-size: 1.5vw; 
-    font-weight: bold;
-}
-
-#third_container_div{
-    height: 100vh;
-    background-color: oldlace 
-}
-
-.family_image {
-    background-image: url("./guyslecture.jpeg");
+.image{
+    background-image: url("./imges/guyslecture.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 66vh;
-    width: 30vw; 
-    margin-left: 7vw; 
-    background-color: transparent !important; 
-    border: none;
+    height: 60vh;
+    margin-top: 10vh;
 }
 
-#pop_up_div {
-    width: 18vw; 
-    height: 29vh; 
-    background-color: mediumaquamarine;
-    margin-left: 22vw;
-    margin-top: 40vh;
-}
-
-.percent99 {
-    text-align: center; 
-    padding-top: 5vh; 
-    font-size: 5vw;
-    color: white; 
-    font-weight: bold;
-}
 .line_div {
-    width: 40vw;
+    width: 30vw;
     height: 0.1vh;
-    margin-left: 1.5vw;
+    margin-left: 0.5vw;
     margin-top: 4vh;
     background-color: mediumaquamarine;
 
-}
-
-.radio_btn_div {
-    margin-top: 5vh;
-    margin-left: 1vw;
-}
-
-
-.radio_btn_div2{
-    margin-top: 2vh;
-    margin-left: 1vw;
-}
-
-.radio_btn_div3{
-    margin-top: 2vh;
 }
 
 #learn_more {
     width: 14vw; 
-    height: 10vh; 
+    height: 8vh; 
     background-color: transparent !important; 
     border-color: mediumaquamarine;
     color: mediumseagreen; 
     font-size: 1.5vw; 
     font-weight: bold;
-    margin-top: 5vh;
+    margin-top: 2vh;
     margin-left: 1vw;
 }
 
-#mobile_paragraph {
-    margin-left: 3vw; 
-    font-size: 1vw; 
-    font-weight: bold; 
-    color: white;
-    margin-top: 1vh;
+.image{
+    background-image: url("./imges/guyslecture.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    margin-top: 10vh;
 }
 
-#guides_line_text {
-    font-size: 3.5vw; 
-    font-weight: bold; 
-    margin-left: 1vw;
+#text_container {
+    width: 70vw;
+    margin-left: 10vw;
 }
 
-#fourth_container {
-    height: 100vh;
-    background-color: whitesmoke;
+.footer_line {
+    background-color: mediumspringgreen; 
+    width: 90vw; 
+    margin-top: 5vh; 
+    height: 0.1vw;
 }
-
-#line_div2 {
-    width: 7vw; height: 0.5vh; 
-    margin-left: 46vw; 
+.pop_up_div {
+    width: 15rem; 
+    height: 20vh; 
+    background-color: mediumseagreen;
+    margin-left: 25vw;
+    margin-top: -15vh
+}
+.underline_div {
+    width: 7rem; 
+    height: 0.5vh; 
+    margin-left: auto;
+    margin-right: auto; 
     margin-top: 3vh; 
     background-color: mediumseagreen;
 }
 
-.icons_width2 {
-    width: 7vw;
+.image_line_div {
+    width: 4rem;
+}
+
+#line_div2 {
+    width: 7rem; 
+    height: 0.5vh; 
     margin-left: auto;
-    margin-right: auto;
-}
-
-#fifth_container {
-    height: 100vh;
-    background-color: oldlace;
-    margin-top: -5vh
-}
-
-.line_div3 {
-    width: 30vw;
-    height: 0.1vh;
-    margin-left: 2.8vw;
-    margin-top: 4vh;
-    background-color: mediumaquamarine;
-}
-
-.radio_btn_div4 {
-    margin-top: 5vh;
-    margin-left: 2vw;
-}
-
-.radio_btn_div5 {
-    margin-top: 3vh;
-    margin-left: 2vw;
-}
-
-.radio_btn_div6 {
-    margin-top: 3vh;
-}
-
-#business_image {
-    background-image: url("./man-tea.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#learn_more2 {
-    width: 14vw; 
-    height: 10vh; 
-    background-color: transparent !important; 
-    border-color: mediumaquamarine;
-    color: mediumseagreen; 
-    font-size: 1.5vw; 
-    font-weight: bold;
-    margin-top: 5vh;
-    margin-left: 2vw;
-}
-
-#easy_way_to_get_loan {
-    font-size: 2.3vw; 
-    font-weight: bold; 
-    margin-left: 3vw;
-}
-
-#profit_tax_text {
+    margin-right: auto; 
     margin-top: 3vh; 
-    margin-left: 3vw;
+    background-color: mediumseagreen;
 }
 
-#man_with_tea_div {
-    height: 60vh; 
-    margin-left: 10vw; 
-    margin-top: 18vh;
+#bg_color {
+    background: #8dcfc99a; 
+    height: 90vh;
 }
 
-.title_for_icons {
-    font-size: 1.5vw; 
-    font-weight: bold; 
-    text-align: center;
+.me {
+    width: 8rem;
+    margin-left: 3.8rem; 
 }
 
-#six_container {
+.my_img {
     height: 60vh;
-    background-color: teal;
 }
 
-#text_container {
-    width: 60vw;
-    padding-top: 10vh; 
-    margin-left: 21vw;
+.carousel-item { 
+    width: 60rem; 
+    margin-left: 13vw;
 }
-
-#paragraph {
-    font-weight: bold;
-    font-size: 2vw;
-    color: white;
-    font-family: cursive;
-}
-
-#seven_container {
-    height: 100vh;
-    background-color: whitesmoke;
-}
-
-.options_txt {
-    font-size: 1.7vw; 
-    font-weight: bold; 
-    margin-left: -1vw;
-}
-
-#start_to_fiinist_txt {
-    font-size: 1.5vw; 
-    font-weight: bold; 
-    margin-left: -1vw;
-}
-
-.card-text_paragraph {
-    margin-top: 1.7vh; 
-    margin-left: -1vw;
-}
-
-#footer {
-    height: 80vh;
-    background-color: pink;
-}
-
-
-#icons_width2 {
-    width: 15vw;
-    margin-top: 20vh;
-    margin-left: -0.1vw;
-    
-}
-
-#txt {
-    font-weight: bold; 
-    margin-top: 2vh; 
-    font-size: 1.5vw;
-}
- @media only screen and (max-width: 640px) {
-    .container_div{
-        height: 163vh;
-    }
-    #image_two_column {
-        width: 98vw;
-        margin-left: -1vw;
-    }
-
-    #first_card {
-        width: 100vw;
-    }
-
-     #txt_simple_online_home_loan {
-        font-size: 13vw;
-    } 
-   
-    #image_line_div {
-        width: 35vw; 
-    }
-
-    #text_financial {
-        font-size: 4.5vw
-    }
-    
-    #our_services_btn {
-        width: 60vw; 
-        font-size: 5vw; 
-    }
-    
-    #second_card {
-        width: 95vw;
-        margin-top: 4vh;
-        margin-left: 3vw;
-    }
-    
-    #white_card h2 {
-        width: 75vw;
-        font-size: 8vw;
-        text-align: center; 
-    }
-
-    #white_card p {
-        text-align: center; 
-        font-size: 3.3vw;
-    }
-    
-    #white_card div {
-        width: 25vw;  
-        margin-left: 23vw; 
-        margin-top: 3vh; 
-    }
-
-    #white_card h3 {
-        font-size: 3vw; 
-    }
-   
-    #white_card select {
-        width: 78vw;
-    }
-
-    #white_card button {
-        width: 78vw; 
-    }
-
-    .solutions_business_needs h2{
-        text-align: center;
-        font-weight: bold;
-        margin-left: 0.7vh;
-        font-size: 7vw;
-    }
-    #line_div2{
-        width: 45vw; 
-        height: 0.5vh; 
-        margin-left: 28vw;
-    }
-    
-    .text_div {
-        width: 95vw;
-        height: 7vh;
-        margin-left: 4vw;
-        font-size: 5vw; 
-        color: black;
-    }
-
-    #second_container_div {
-        height: 190vh;
-    }
-
-    #delivering_process {
-        margin-left: -0.5vw;
-        color: black;
-    }
-    #icons_mobile_style {
-        width: 20vw;
-        margin-left: -8vw;
-        margin-top: 7vh;
-    }
-    #icons_mobile_style2 {
-        width: 20vw;
-        margin-left: -8vw;
-    }
-    #icons_mobile_style3 {
-        width: 20vw;
-        margin-left: -8vw;
-    }
-
-    #mobile_text_loan {
-        font-size: 3.5vw; 
-        margin-left: -8vw;
-    }
-
-    #loan_options {
-    font-size: 6vw; 
-    font-weight: bold;
-    margin-left: -8vw;
-    }
-    
-    .imformation_on_loan_profit {
-        font-size: 4.4vw;
-        margin-left: -7vw;
-    } 
-
-    .family_image {
-        background-image: url("./guyslecture.jpeg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 85vw; 
-    }
-
-    #pop_up_div {
-        width:  50vw; 
+@media (min-width: 768px) and (max-width: 769px) { 
+    .pop_up_div {
+        width: 18rem; 
         height: 20vh; 
-        background-color: mediumaquamarine;
-        margin-left: 35vw;
-        margin-top: 50vh;
-    }
-
-    .percent99 {
-        padding-top: 3vh; 
-        font-size: 19vw;
-    }
-
-    #mobile_paragraph{
-        font-size: 4vw; 
-        margin-top: -1vh;
-    }
-
-    #guides_line_text {
-        font-size: 6.5vw;
-        margin-top: -10vh;
-    }
-
-    .line_div {
-        width: 85vw;
-    }
-
-    #learn_more {
-        width: 50vw;
-        font-size: 4vw; 
-    }
-    
-    #third_container_div{
-        height: 160vh; 
-    }
-
-    #line_div2 {
-        width: 35vw; 
-        margin-left: 33vw; 
-        margin-top: 3vh; 
-    }
-
-    .icons_width2 {
-        width: 29vw;
-        margin-top: 3vh;
-    }
-
-    #fourth_container {
-        height: 250vh;
-    }
-
-    #fifth_container {
-        height: 150vh;
-        background-color: oldlace;
+        background-color: mediumseagreen;
+        margin-left: 50vw;
         margin-top: -15vh
     }
 
-    #easy_way_to_get_loan {
-        font-size: 6.5vw; 
-        margin-left: -3vw;
-        margin-top: 3vh;
+    #learn_more {
+        width: 14rem; 
+        font-size: 2vw; 
     }
 
-    #profit_tax_text {
-        margin-top: 3vh; 
-        margin-left: -3vw;
-        font-size: 4vw;
-        font-weight: bold;
+    #bg_color {
+        height: 140vh;
     }
 
-    .line_div3 {
-    width: 70vw;
-    margin-left: -2vw;
+    .me {
+        width: 8rem;
+        margin-left: 4.5rem; 
     }
-
-    .radio_btn_div4 {
-        margin-left: -2vw;
-    }
-    
-    .radio_btn_div5 {
-        margin-left: -2vw;
-    }
-    
-    #learn_more2 {
-        width: 50vw; 
-        font-size: 4vw; 
-        margin-left: -2vw;
-    }
-
-    #business_image {
-        background-image: url("./man-tea.webp");
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-
-    #man_with_tea_div {
-        width: 90vw;
-        margin-left: 1vw; 
-        margin-top: -0.5vh;
-    }
-
-    .title_for_icons {
-        font-size: 5vw;
-    }
-
-    #six_container {
-        height: 70vh;
-    }
-
-    #text_container {
-        width: 95vw;
-        margin-left: 2vw;
-    }
-
-    #paragraph {
-        font-size: 5vw;
-    }
-
-    .displaying_img_on_latest_news {
-        margin-left: -4vw;
-        width: 88vw;
-    }
-
-    .year_title {
-        margin-left: -5vw;
-    }
-
-    .options_txt {
-        font-size: 5.5vw; 
-        margin-left: -6vw;
-    }
-
-    #start_to_fiinist_txt{
-        font-size: 5.4vw;  
-        margin-left: -6vw;
-    }
-
-    .card-text_paragraph {
-        margin-left: -6vw;
-    }
-    #footer {
-        height: 80vh;
-        margin-top: 150vh;
-    }
-    #icons_width2 {
-        width: 50vw;
-        margin-left: -5vw;
-        margin-top: 10vh;
-        
-    }
-
-    #txt {
-        font-size: 4.5vw;
-        margin-left: -12vw;
-    }
-
-    #container_for_first_div {
-        border: none; 
-        background-color: red; 
-        height: 20vh;
-         margin-left: -9vw;
-    }
-
-    /* #container_for_first_link {
-        width: 70vw; 
-        height: 20vh;
-        background-color: orange;
-    } */
-
-    .three_option_text {
-        margin-top: -10vh;
-        font-size: 3vw; 
-        font-weight: bold;
-    }
-
-    #container_for_first_div {
-        border: none; 
-        background-color: transparent !important;
-    }
-
-} 
-
-#container_for_first_div {
-    border: none; 
-    background-color: transparent !important;
 }
 
-#container_for_first_link {
-    width: 12vw;
+@media (min-width: 1024px) and (max-width: 1025px) { 
+
+    .image{
+        height: 45vh;
+        width: 30rem;
+    }
+    .pop_up_div {
+        width: 18rem; 
+        height: 15vh;
+        background-color: mediumseagreen;
+    }
+
+    #learn_more {
+        width: 14rem; 
+        font-size: 2vw; 
+    }
+
+    #bg_color {
+        background: #8dcfc99a; 
+        height: 60vh;
+    }
+
+    .me {
+        width: 10rem;
+        margin-left: 0.5rem; 
+
+    }
+    .carousel-item { 
+        width: 60rem; 
+        margin-left: 1vw;
+    }
+
+    .my_img {
+        height: 40vh;
+        width: 25rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 321px) { 
+
+    .pop_up_div {
+        width: 12rem; 
+        height: 15vh;
+        margin-left: 30vw;
+        background-color: mediumseagreen;
+    }
+
+    #learn_more {
+        width: 10rem; 
+        font-size: 5vw; 
+    }
+   
+    #bg_color {
+        background: #8dcfc99a; 
+        height: 220vh;
+    }
+
+    .me {
+        margin-left: 1.8rem; 
+    }
+
+    .my_img {
+        width: 18rem;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 376px) { 
+
+    .pop_up_div {
+        width: 12rem; 
+        height: 15vh;
+        margin-left: 38vw;
+        background-color: mediumseagreen;
+    }
+
+    #learn_more {
+        width: 10rem; 
+        font-size: 5vw; 
+    }
+
+    #bg_color {
+        background: #8dcfc99a; 
+        height: 175vh;
+    }
+
+    .me {
+        margin-left: 3.5rem; 
+    }
+    .my_img {
+        width: 22rem;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 361px) { 
+
+    #bg_color {
+        background: #8dcfc99a; 
+        height: 190vh;
+    }
+
+
+    #learn_more {
+        width: 10rem; 
+        font-size: 5vw; 
+    }
+
+    .me {
+        width: 10rem;
+        margin-left: 2rem; 
+    }
+
+    .my_img {
+        width: 20rem;
+        height: 60vh;
+    }
+}
+
+@media (min-width: 411px) and (max-width: 414px) { 
+
+    .pop_up_div {
+        width: 12rem; 
+        height: 15vh;
+        margin-left: 45vw;
+        background-color: mediumseagreen;
+    }
+
+    #learn_more {
+        width: 15rem; 
+        font-size: 5vw; 
+    }
+    
+    #bg_color{
+        background: #8dcfc99a; 
+        height: 170vh;
+    }
+
+    .me {
+        margin-left: 4.5rem; 
+    }
+
+    .my_img {
+        width: 24rem;
+        height: 60vh;
+    }
+
 }
